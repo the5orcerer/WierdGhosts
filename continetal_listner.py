@@ -31,4 +31,4 @@ def server_handler():
         conn.close()
     except:
         print('IGNORED')
-print(server_handler())
+server_handler()
